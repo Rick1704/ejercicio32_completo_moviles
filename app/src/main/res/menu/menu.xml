@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/uno"
+        android:title="Item1" />
+    <item
+        android:id="@+id/dos"
+        android:title="Item2" />
+    <item
+        android:id="@+id/tres"
+        android:title="Item3" />
+    <item
+        android:id="@+id/cuatro"
+        android:title="Educastur" />
+    <item android:id="@+id/cinco"
+        android:title="Item5">
+        <menu>
+            <item
+                android:id="@+id/seis"
+                android:title="Item6" />
+            <item
+                android:id="@+id/siete"
+                android:title="Item7" />
+        </menu>
+    </item>
+</menu>
